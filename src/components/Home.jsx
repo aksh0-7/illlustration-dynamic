@@ -1,9 +1,10 @@
 import React from "react";
 import "./Home.css";
+import home from "../assets/home.jpg";
 const Home = () => {
   return (
     <>
-    <div className="home">
+    <div className="home" style={{backgroundImage: `url(${home})`}}>
       <h1>ILLUSTRATIONS</h1>
     </div>
     <div className="content">
